@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
@@ -12,20 +7,52 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./resource/css/style.css">
+  <link rel="stylesheet" href="./resource/css/style2.css">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <img src="./resource/image/header.png" alt="">
-    <img src="./resource/image/logo.png" alt="" class="logo">
+  <div id="menu-nav">
     <img src="./resource/image/menu-icon.png" alt="" class="menu">
+    <div class="menu-overlay wrap">
+      <ul class="col-6 f-2">
+        <li><a href="#">FGML</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">METHODOLOGY</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="info col-6 f-2 text-white p-4 mt-4">
+        New Business Inquiries <br>
+        Kelvin Teo <br>
+        kelvin@wearefireup.com <br> <br>
 
-    <div class="rotate">
+        Public Relations Inquiries <br>
+        Gladwy Teo <br>
+        gladwyn@wearefireup.com <br> <br>
+
+        Fireup Global Media Labs <br>
+        73 Upper Paya Lebar Road <br>
+        #07-02 <br>
+        Singapore 534818
+
+        info@wearefireup.com
+      </div>
+    </div>
+  </div>
+
+  <header class="d-flex relative middle w-100">
+    <img src="./resource/image/header.png" alt="" class="w-100 bg-head">
+    <img src="./resource/image/logo.png" alt="" class="logo">
+
+
+    <div class="rotate-1 f-2 text-white">
       /DISCOVER MORE
     </div>
 
-    <h2>
+    <h2 class="el-middle f-1 text-white">
       <em>
         /WE CREATE IDEAS <br>
         CONNECTED BRAND <br>
@@ -36,158 +63,175 @@
 
   <section class="content">
     <!-- layer 1 -->
-    <div class="layer-1">
-      <img src="./resource/image/handphone1.png" alt="">
-      <img src="./resource/image/cookie_milk.png" alt="">
+    <div class="wrap layer1">
+      <div class="col-lg-6 col-12 p-0">
+        <img src="./resource/image/handphone1.png" alt="">
+      </div>
+      <div class="col-lg-6 col-12 p-0">
+        <img src="./resource/image/cookie_milk.png" alt="">
+      </div>
     </div>
 
     <!-- layer 2 -->
-    <div class="layer-2">
-      <div class="what-is">
+    <div class="layer2 wrap w-100">
+      <div class="col-lg-5 col-12 fgml relative">
         <img src="./resource/image/arrow-white.png" alt="" class="arrow">
-        <div class="r-top-corner">
+        <div class="coret-w" style="bottom: 25%; right: 2%"></div>
+        <div class="box-title text-white f-2">
           FGML
         </div>
 
-        <span>
-          <em>
+        <div class="middle f-1 text-white">
+          <span>
             /We are an international
             multidisciplinary creative
             consultant agency with
             global collective team.
-          </em>
-        </span>
+          </span>
+        </div>
 
-        <div class="rotate">
+        <div class="rotate-2 f-2 text-white">
           /WHAT IS FGML
         </div>
 
-        <a href="#" class="read-more-btn">
+        <a href="#" class="rm-btn btn-w">
           READ MORE
         </a>
       </div>
-      <img src="./resource/image/partner.png" alt="">
+
+      <div class="col-lg-7 col-12 p-0">
+        <img src="./resource/image/partner.png" alt="">
+      </div>
     </div>
 
     <!-- layer 3 -->
-    <div class="layer-3">
-      <img src="./resource/image/handphone2.png" alt="">
+    <div class="layer3 wrap w-100">
+      <div class="img">
+        <img src="./resource/image/handphone2.png" alt="">
+      </div>
 
-      <div class="service">
-        <img src="./resource/image/arrow-black.png" alt="" class="arrow">
+      <div class="service relative relative middle">
 
-        <div class="r-top-corner">
+        <div class="box-title f-2 text-black">
           SERVICE
         </div>
 
-        <span>
-          <em>
-            <mark>
-              /Brand strategy, product design, <br>
-              graphic design, marketing <br>
-              & communication, packaging, <br>
-              web & app design.
-            </mark>
-          </em>
-        </span>
+        <div class="middle f-1 text-black">
+          <span>
+            <em>
+              <mark>
+                /Brand strategy, product design, <br>
+                graphic design, marketing <br>
+                & communication, packaging, <br>
+                web & app design.
+              </mark>
+            </em>
+          </span>
+        </div>
 
-        <div class="rotate">
+        <div class="rotate-1 f-2" style="margin-left: -45px; top: unset; bottom: 10em;">
           /WE BEST AT WHAT WE DO
         </div>
 
-        <a href="#" class="read-more-btn">
+        <img src="./resource/image/arrow-black.png" alt="" class="arrow">
+
+        <a href="#" class="rm-btn btn-b">
           READ MORE
         </a>
       </div>
     </div>
 
-    <!-- layer 4 -->
-    <div class="layer-4">
+    <div class="layer4 w-100">
       <img src="./resource/image/ticket.png" alt="">
     </div>
 
-    <!-- layer 5 -->
-    <div class="layer-5">
-      <div class="contact">
-        <div class="stripe"></div>
+    <div class="layer-5 wrap">
+      <div class="col-lg-5 col-12 contact middle relative">
+        <div class="coret-b" style="top: 5%; left: 5%;"></div>
 
-        <div class="r-top-corner">
+        <div class="box-title f-2">
           CONTACT
         </div>
 
-        <span>
-          <em>
-            Singapore <br>
-            & Indonesia
-          </em>
-        </span>
+        <div class="middle" style="margin-left: -40%;">
+          <span>
+            <em>
+              Singapore <br>
+              & Indonesia
+            </em>
+          </span>
+        </div>
 
-        <div class="rotate">
+        <div class="rotate-2 f-2">
           /LOCATION BASE
         </div>
 
-        <a href="#" class="read-more-btn">
+        <a href="#" class="rm-btn btn-b">
           CONTACT US
         </a>
       </div>
 
-      <div class="news">
-        <div class="r-top-corner">
+      <div class="col-lg-7 col-12 news middle relative">
+        <div class="box-title f-2">
           NEWS
         </div>
 
-        <div class="date">
-          25 JUNE 2019
+        <div class="middle">
+          <span>
+            <h4 class="f-2">
+              25 JUNE 2019
+            </h4>
+            <h2>
+              <em>
+                FGML wins cannes advertising award
+              </em>
+            </h2>
+            <p class="f-2">
+              Cannes Advertising Award is a well respected and internationally recognized
+              design competition. Each year in Singapore, product design agencies ply their
+              industry knowledge, expertise and design flair...
+            </p>
+          </span>
         </div>
 
-        <span>
-          <h2>
-            <em>
-              FGML wins cannes advertising award
-            </em>
-          </h2>
-          <p>
-            Cannes Advertising Award is a well respected and internationally recognized
-            design competition. Each year in Singapore, product design agencies ply their
-            industry knowledge, expertise and design flair...
-          </p>
-        </span>
-
-        <a href="#" class="read-more-btn">
+        <a href="#" class="rm-btn btn-b">
           READ MORE
         </a>
       </div>
     </div>
 
-    <!-- layer 6 -->
-    <div class="layer-6">
+    <div class="layer6">
       <img src="./resource/image/laptop.png" alt="">
     </div>
 
-    <!-- layer 7 -->
-    <div class="layer-7">
-      <img src="./resource/image/temurun.png" alt="">
+    <div class="layer7 wrap w-100">
+      <div class="img">
+        <img src="./resource/image/temurun.png" alt="">
+      </div>
 
-      <div class="methodology">
+      <div class="methodology relative middle">
+        <div class="coret-w" style="bottom: 5%; right: 7%;"></div>
         <img src="./resource/image/arrow-white.png" alt="" class="arrow">
 
-        <div class="r-top-corner">
+        <div class="box-title f-2 text-white">
           METHODOLOGY
         </div>
 
-        <span>
-          <em>
-            /We observe, research, examine,<br>
-            strategize, direct, develope,<br>
-            create, produce, and fnalize
-          </em>
-        </span>
+        <div class="middle">
+          <span class="text-white">
+            <em>
+              /We observe, research, examine,
+              strategize, direct, develope,
+              create, produce, and fnalize
+            </em>
+          </span>
+        </div>
 
-        <div class="rotate">
+        <div class="rotate-1 text-white f-2" style="top: unset; bottom: 25%; margin-left: -45px;">
           /OUR WHY OF DOING THINGS
         </div>
 
-        <a href="#" class="read-more-btn">
+        <a href="#" class="rm-btn btn-w">
           READ MORE
         </a>
         <div class="stripe"></div>
@@ -195,23 +239,27 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer-menu">
-      <img src="./resource/image/logo-footer.png" alt="" class="logo">
+  <footer class="wrap">
+    <div class="col-lg-6 col-12 wrap">
+      <div class="col-6 p-0 middle">
+        <img src="./resource/image/logo-footer.png" alt="" class="logo">
+      </div>
 
-      <div class="footer-menu-list">
-        <a href="#">FGML</a> <br>
-        <a href="#">WORK</a> <br>
-        <a href="#">SERVICE</a> <br>
-        <a href="#">CONTACT</a> <br>
-        <a href="#">
-          <img src="./resource/image/arrow-black.png" alt="" class="arrow">
-        </a>
+      <div class="col-6 p-0 middle">
+        <div class="ft-menu f-2">
+          <a href="#">FGML</a> <br>
+          <a href="#">WORK</a> <br>
+          <a href="#">SERVICE</a> <br>
+          <a href="#">CONTACT</a> <br>
+          <a href="#">
+            <img src="./resource/image/arrow-black.png" alt="" class="arrow">
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="footer-contact">
-      <div class="col-6">
+    <div class="col-lg-6 col-12 wrap ft-contact">
+      <div class="col-lg-6 col-12 f-2">
         New Business Inquiries <br>
         Kelvin Teo <br>
         <strong>
@@ -226,7 +274,7 @@
         </strong>
       </div>
 
-      <div class="col-6">
+      <div class="col-lg-6 col-12 f-2 mt-2">
         <strong>
           Fireup Global Media Labs <br>
         </strong>
@@ -238,13 +286,13 @@
       </div>
     </div>
 
-    <div class="footer-policy">
-      <div class="col-6">
+    <div class="ft-policy f-2 wrap col-12 mt-5 py-4 px-0">
+      <div class="col-md-6 col-12 middle p-0">
         © FGML 2019 all rights reserved <br>
         FGML are registered trademarks of FGML
       </div>
-      <div class="col-6">
-        <a href="#">Terms Of Service</a> &nbsp; &nbsp;&nbsp;
+      <div class="col-md-6 col-12 middle p-0" style="flex-wrap: wrap">
+        <a href="#">Terms Of Service</a> &nbsp;&nbsp;&nbsp;
         <a href="#">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
         <a href="#">Privacy Shield Policy</a> &nbsp;&nbsp;&nbsp;
         <a href="#">Cookie Policy</a>
@@ -252,6 +300,13 @@
     </div>
 
   </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./resource/js/main.js"></script>
 </body>
 
 </html>

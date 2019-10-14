@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../font/helvetica-neue-black.woff") format("woff");
+}
+
 :root {
   --tilium: 'Titillium Web', sans-serif;
 }
@@ -8,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica';
+  font-family: 'Helvetica Neue';
 }
 
 img {
@@ -26,7 +31,7 @@ header .logo {
   top: 15%;
   left: 4%;
   transform: translateY(-50%);
-  width: 200px;
+  width: 255px;
 }
 
 header .menu {
@@ -34,7 +39,7 @@ header .menu {
   top: 58%;
   right: 2.5%;
   transform: translateY(-50%);
-  width: 35px;
+  width: 40px;
 }
 
 header .rotate {
@@ -55,8 +60,8 @@ header h2 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 65px;
-  font-weight: 900;
+  font-size: 4.3vw;
+  font-weight: 500;
 }
 
 header img {
@@ -113,8 +118,8 @@ header img {
 }
 
 .what-is span {
-  font-size: 35px;
-  font-weight: 900;
+  font-size: 2.5vw;
+  font-weight: 500;
 }
 
 .layer-2 .rotate {
@@ -171,9 +176,9 @@ header img {
 }
 
 .layer-3 span {
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 1.19;
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 1.3;
   padding-left: 20px;
   padding-right: 10px;
   position: relative;
@@ -246,8 +251,8 @@ header img {
 }
 
 .layer-5 .contact span {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 2.7vw;
+  font-weight: 500;
   margin-right: auto;
   position: relative;
 }
@@ -301,9 +306,9 @@ header img {
 }
 
 .layer-5 .news span h2 {
-  font-size: 35px;
+  font-size: 2.6vw;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 500;
   margin-right: auto;
   position: relative;
   margin-bottom: 1em;
@@ -364,8 +369,9 @@ header img {
 }
 
 .layer-7 .methodology span {
-  font-size: 35px;
-  font-weight: 900;
+  font-size: 2.7vw;
+  font-weight: 500;
+  margin-bottom: 4em;
 }
 
 .layer-7 .read-more-btn {
@@ -441,12 +447,15 @@ footer .footer-menu .arrow {
 }
 
 footer .footer-contact {
-  font-family: var(--tilium);
   width: 50%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-right: 10em;
+}
+
+footer .footer-contact * {
+  font-family: var(--tilium);
 }
 
 .col-6 {
@@ -469,11 +478,11 @@ footer .footer-contact {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  font-family: var(--tilium);
 }
 
 .footer-policy a {
   text-decoration: none;
+  font-family: var(--tilium);
   color: #555;
 }
 
@@ -492,7 +501,7 @@ footer .footer-contact {
 
   header .menu {
     top: 12%;
-    width: 7vw;
+    width: 35px;
     height: auto;
   }
 
@@ -606,6 +615,7 @@ footer .footer-contact {
 
   .layer-7 .methodology span {
     font-size: 25px;
+    margin-bottom: 0;
   }
 
   .layer-7 .read-more-btn {
@@ -634,6 +644,7 @@ footer .footer-contact {
     margin-top: 4em;
     padding: 0 5em;
   }
+
 
   footer .col-6 {
     font-size: 12px;
