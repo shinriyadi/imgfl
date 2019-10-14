@@ -125,18 +125,37 @@ header .logo {
 }
 
 .menu {
-  position: fixed;
-  top: 45%;
-  right: 2.5%;
-  transform: translateY(-50%);
-  width: 40px;
-  cursor: pointer;
   z-index: 99;
-  transition: transform 0.5s;
+  position: fixed;
+  top: 40%;
+  right: 2.5%;
+  cursor: pointer;
+  transform: translateY(-50%);
 }
 
-.menu.active {
-  transform: rotate(180deg);
+.nav-1,
+.nav-2 {
+  position: absolute;
+  top: 45%;
+  right: 2.5%;
+  width: 40px;
+  transition: opacity 0.5s;
+}
+
+.nav-1 {
+  opacity: 1;
+}
+
+.nav-2 {
+  opacity: 0;
+}
+
+.menu.active .nav-1 {
+  opacity: 0;
+}
+
+.menu.active .nav-2 {
+  opacity: 1;
 }
 
 .menu-overlay {
@@ -145,7 +164,7 @@ header .logo {
   width: 0px;
   height: 100%;
   background: rgba(0, 0, 0, 1);
-  transition: width 1s;
+  transition: width .1s;
   z-index: 1;
 }
 
@@ -153,7 +172,6 @@ header .logo {
   background: rgba(0, 0, 0, 1);
   width: 65%;
   height: 100vh;
-  transition: width 1s;
 }
 
 .menu-overlay a {
@@ -290,6 +308,44 @@ header h2 {
   width: 53%;
 }
 
+.layer4 img {
+  object-position: center;
+  min-height: 350px;
+}
+
+.layer-overlay {
+  /* cursor: pointer; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0 4em;
+  opacity: 0;
+  transition: .5s;
+}
+
+.layer-overlay div {
+  margin-top: -2em;
+  transition: .5s;
+}
+
+.layer4:hover .layer-overlay,
+.layer6:hover .layer-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, .75);
+}
+
+.layer4:hover .layer-overlay div,
+.layer6:hover .layer-overlay div {
+  margin-top: 0;
+}
+
+.layer6 img {
+  min-height: 350px;
+  object-position: center;
+}
+
 .methodology span {
   max-width: 70%;
   font-size: 2.6vw;
@@ -371,9 +427,14 @@ footer .arrow {
   }
 
   .menu {
-    top: 15%;
+    top: 3%;
     right: 4%;
-    width: 30px;
+    width: 20px;
+  }
+
+  .nav-1,
+  .nav-2 {
+    width: 25px;
   }
 
   .rm-btn {
@@ -412,22 +473,12 @@ footer .arrow {
     width: 25px;
   }
 
-  .layer4 img {
-    object-position: center;
-    min-height: 350px;
-  }
-
   .contact span {
     font-size: 30px;
   }
 
   .news {
     padding: 7em 2em !important;
-  }
-
-  .layer6 img {
-    min-height: 350px;
-    object-position: center;
   }
 
   .layer7 .img {
