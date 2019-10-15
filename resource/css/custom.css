@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url("../font/helvetica-neue-black.woff") format("woff");
-  src: url("../font/helvetica-neue-black.woff2") format("woff2");
-  src: url("../font/helvetica-neue-black.ttf") format("truetype");
+  src: url("../font/HelveticaNeue-HeavyCond.woff") format("woff");
+  src: url("../font/HelveticaNeue-HeavyCond.woff2") format("woff2");
+  src: url("../font/HelveticaNeue-HeavyCond.ttf") format("truetype");
 }
 
 * {
@@ -345,7 +345,7 @@ header h2 {
 }
 
 .layer-overlay {
-  /* cursor: pointer; */
+  cursor: pointer;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,8 +437,16 @@ footer .arrow {
   color: #000;
 }
 
+.ft-menu a:hover {
+  color: #00aeef !important;
+}
+
 .ft-contact {
   font-size: 14px;
+}
+
+.ft-contact a:hover {
+  color: #00aeef !important;
 }
 
 .ft-policy {
@@ -457,7 +465,7 @@ footer .arrow {
 
 .ft-policy a:hover {
   text-decoration: none;
-  color: #000;
+  color: #00aeef;
 }
 
 @media (max-width: 768px) {

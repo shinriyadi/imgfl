@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url("../font/helvetica-neue-black.woff") format("woff");
-  src: url("../font/helvetica-neue-black.woff2") format("woff2");
-  src: url("../font/helvetica-neue-black.ttf") format("truetype");
-  // src: url("../font/helvetica-neue-black.svg") format("svg");
-  // src: url("../font/helvetica-neue-black.eot?iefix") format("embeded-opentype");
-  // src: url("../font/helvetica-neue-black.otf") format("otf");
+  src: url("../font/HelveticaNeue-HeavyCond.woff") format("woff");
+  src: url("../font/HelveticaNeue-HeavyCond.woff2") format("woff2");
+  src: url("../font/HelveticaNeue-HeavyCond.ttf") format("truetype");
+  // src: url("../font/HelveticaNeue-HeavyCond.svg#HelveticaNeue-HeavyCond") format("svg");
+  // src: url("../font/HelveticaNeue-HeavyCond.eot?iefix") format("embeded-opentype");
+  // src: url("../font/HelveticaNeue-HeavyCond.otf") format("otf");
 }
 
 * {
@@ -324,7 +324,7 @@ header h2 {
 }
 
 .layer-overlay {
-  /* cursor: pointer; */
+  cursor: pointer;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -406,8 +406,16 @@ footer .arrow {
   color: #000;
 }
 
+.ft-menu a:hover {
+  color: #00aeef !important;
+}
+
 .ft-contact {
   font-size: 14px;
+}
+
+.ft-contact a:hover {
+  color: #00aeef !important;
 }
 
 .ft-policy {
@@ -426,7 +434,7 @@ footer .arrow {
 
 .ft-policy a:hover {
   text-decoration: none;
-  color: #000;
+  color: #00aeef;
 }
 
 @media(max-width: 768px) {
