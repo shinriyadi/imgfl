@@ -19,7 +19,7 @@ body {
 
 :root {
   --tilium: 'Titillium Web', sans-serif;
-  --helvetica: 'Helvetica Neue';
+  --helvetica: 'Helvetica Neue', sans-serif;
 }
 
 .f-1 {

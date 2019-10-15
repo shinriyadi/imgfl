@@ -5,7 +5,7 @@
   src: url("../font/HelveticaNeue-HeavyCond.woff") format("woff");
   src: url("../font/HelveticaNeue-HeavyCond.woff2") format("woff2");
   src: url("../font/HelveticaNeue-HeavyCond.ttf") format("truetype");
-  // src: url("../font/HelveticaNeue-HeavyCond.svg#HelveticaNeue-HeavyCond") format("svg");
+  // src: url("../font/HelveticaNeue-HeavyCond.svg#Helvetica-Neue") format("svg");
   // src: url("../font/HelveticaNeue-HeavyCond.eot?iefix") format("embeded-opentype");
   // src: url("../font/HelveticaNeue-HeavyCond.otf") format("otf");
 }
@@ -22,7 +22,7 @@ body {
 
 :root {
   --tilium: 'Titillium Web', sans-serif;
-  --helvetica: 'Helvetica Neue';
+  --helvetica: 'Helvetica Neue', sans-serif;
 }
 
 .f-1 {
