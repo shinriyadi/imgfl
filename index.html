@@ -11,6 +11,17 @@
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    .bg-head {
+      height: 475px;
+    }
+
+    @media(max-width: 768px) {
+      .bg-head {
+        height: 350px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -54,7 +65,10 @@
   </div>
 
   <header class="d-flex relative middle w-100">
-    <img src="./resource/image/header.png" alt="" class="w-100 bg-head">
+    <video autoplay loop muted style="object-fit: cover" class="w-100 bg-head">
+      <source src="./resource/image/header.mp4" type="video/mp4">
+    </video>
+    <!-- <img src="./resource/image/header.mp4" alt="" class="w-100 bg-head"> -->
     <img src="./resource/image/logo.png" alt="" class="logo">
 
 
@@ -125,12 +139,12 @@
       </div>
 
       <div class="col-lg-7 col-12 p-0 img relative">
-        <div class="layer-overlay f-2 text-white middle w-100">
+        <!-- <div class="layer-overlay f-2 text-white middle w-100">
           <div class="text-center w-100">
             <h2><strong>Lorem, ipsum.</strong></h2>
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
           </div>
-        </div>
+        </div> -->
         <img src="./resource/image/partner.png" alt="">
       </div>
     </div>

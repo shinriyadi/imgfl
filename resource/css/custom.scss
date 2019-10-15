@@ -332,6 +332,21 @@ header h2 {
   padding: 0 1em;
   opacity: 0;
   transition: .5s;
+
+  h2 {
+    font-family: var(--tilium);
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  h4 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: var(--helvetica);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px
+  }
 }
 
 .layer-overlay div {
