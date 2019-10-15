@@ -4,9 +4,10 @@
   font-family: 'Helvetica Neue';
   src: url("../font/helvetica-neue-black.woff") format("woff");
   src: url("../font/helvetica-neue-black.woff2") format("woff2");
-  src: url("../font/helvetica-neue-black.woff") format("woff");
-  src: url("../font/helvetica-neue-black.woff") format("woff");
-  src: url("../font/helvetica-neue-black.woff") format("woff");
+  src: url("../font/helvetica-neue-black.ttf") format("truetype");
+  src: url("../font/helvetica-neue-black.svg#svgFontName") format("svg");
+  src: url("../font/helvetica-neue-black.eot?iefix") format("embeded-opentype");
+  src: url("../font/helvetica-neue-black.otf") format("otf");
 }
 
 * {
