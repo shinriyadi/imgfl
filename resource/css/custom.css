@@ -258,7 +258,7 @@ header h2 {
 }
 
 .layer2 .fgml {
-  background: #821a81ff;
+  background: #821a81;
 }
 
 .layer2 span {
@@ -302,7 +302,7 @@ header h2 {
 }
 
 .contact {
-  background: #f9ed32ff;
+  background: #f9ed32;
   min-height: 350px;
 }
 
@@ -311,7 +311,7 @@ header h2 {
 }
 
 .news {
-  background: #f1f2f2ff;
+  background: #f1f2f2;
   min-height: 400px;
   padding: 6% 7% !important;
 }
@@ -336,7 +336,7 @@ header h2 {
 }
 
 .layer7 .methodology {
-  background: #2e3192ff;
+  background: #2e3192;
   width: 53%;
 }
 
@@ -404,7 +404,7 @@ header h2 {
 }
 
 footer {
-  background: #f1f2f2ff;
+  background: #f1f2f2;
   padding-top: 100px;
 }
 
