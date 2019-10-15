@@ -3,6 +3,10 @@
 @font-face {
   font-family: 'Helvetica Neue';
   src: url("../font/helvetica-neue-black.woff") format("woff");
+  src: url("../font/helvetica-neue-black.woff2") format("woff2");
+  src: url("../font/helvetica-neue-black.woff") format("woff");
+  src: url("../font/helvetica-neue-black.woff") format("woff");
+  src: url("../font/helvetica-neue-black.woff") format("woff");
 }
 
 * {
@@ -91,7 +95,7 @@ img {
   bottom: 4em;
   left: 50%;
   transform: translateX(-50%);
-  padding: 1.2em 2.5em;
+  padding: 1.2em 3.2em;
   font-size: 1.2vw;
   text-decoration: none;
   font-family: var(--tilium);
@@ -192,12 +196,17 @@ header .logo {
 
 .menu-overlay a {
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 4.1vw;
+}
+
+.menu-overlay a:hover {
+  color: #00aeef;
 }
 
 .menu-overlay .info {
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.35;
   display: none;
 }
 
@@ -320,7 +329,7 @@ header h2 {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  padding: 0 4em;
+  padding: 0 1em;
   opacity: 0;
   transition: .5s;
 }
@@ -331,7 +340,8 @@ header h2 {
 }
 
 .layer4:hover .layer-overlay,
-.layer6:hover .layer-overlay {
+.layer6:hover .layer-overlay,
+.img:hover .layer-overlay {
   opacity: 1;
   background: rgba(0, 0, 0, .75);
 }
@@ -386,6 +396,10 @@ footer .arrow {
 
 .ft-policy {
   font-size: 16px;
+}
+
+.ft-policy .copyright {
+  left: 15%;
 }
 
 .ft-policy a {
@@ -517,5 +531,10 @@ footer .arrow {
 
   .ft-contact .col-12 {
     margin-top: 4em !important;
+  }
+
+  .ft-policy .copyright {
+    text-align: center;
+    left: 0;
   }
 }
