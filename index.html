@@ -17,6 +17,10 @@
       object-fit: cover;
     }
 
+    .bg-head.img {
+      display: none;
+    }
+
     video::-webkit-media-controls {
       display: none !important;
     }
@@ -29,6 +33,14 @@
     @media(max-width: 768px) {
       .bg-head {
         height: 350px;
+      }
+
+      .bg-head.video {
+        display: none;
+      }
+
+      .bg-head.img {
+        display: block;
       }
     }
   </style>
@@ -75,9 +87,11 @@
   </div>
 
   <header class="d-flex relative middle w-100">
-    <video autoplay loop muted playsinline controls="false" poster="./resource/image/header.gif" class="w-100 bg-head">
+    <video autoplay loop muted playsinline controls="false" poster="./resource/image/header.gif"
+      class="w-100 bg-head video">
       <source src="./resource/image/header.mp4" type="video/mp4">
     </video>
+    <img src="./resource/image/header.gif" alt="" class="w-100 bg-head img">
     <img src="./resource/image/logo.png" alt="" class="logo">
 
 
