@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+@import url("https://www.fontify.me/wf/5be0bc8f9b464ae13bb4617e4eb818ec");
 @font-face {
   font-family: 'Helvetica Neue';
   src: url("../font/HelveticaNeue-HeavyCond.woff") format("woff");
@@ -19,7 +20,7 @@ body {
 
 :root {
   --tilium: 'Titillium Web', sans-serif;
-  --helvetica: 'Helvetica Neue', sans-serif;
+  --helvetica: font112622;
 }
 
 .f-1 {
