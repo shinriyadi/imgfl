@@ -145,11 +145,11 @@ header .logo {
   width: 250px;
 }
 
-header video::-webkit-media-controls {
+video::-webkit-media-controls {
   display: none !important;
 }
 
-header video::-webkit-media-controls-start-playback-button {
+video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
 }

@@ -131,7 +131,7 @@ header .logo {
   width: 250px;
 }
 
-header video {
+video {
   &::-webkit-media-controls {
     display: none !important;
   }
