@@ -11,10 +11,6 @@
   // src: url("../font/HelveticaNeue-HeavyCond.otf") format("otf");
 }
 
-video::-webkit-media-controls {
-  display: none !important;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -133,6 +129,17 @@ header .logo {
   top: 10%;
   left: 3.5%;
   width: 250px;
+}
+
+header video {
+  &::-webkit-media-controls {
+    display: none !important;
+  }
+
+  &::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+  }
 }
 
 .menu {
